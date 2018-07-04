@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="HR Legal Facility Marketing" max_length="40" name="x_234245_demo_gith_hr_tasks" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Categories" max_length="40" name="u_categories_1" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" default="0" label="Cost of Service" max_length="20" name="u_cost_of_service_1" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="States" max_length="40" name="u_states_1" type="string">
+            <choice>
+                <element label="Active" sequence="0" value="Active"/>
+                <element label="Inactive" sequence="1" value="Inactive"/>
+                <element label="Closed" sequence="2" value="Closed"/>
+            </choice>
+        </element>
+    </element>
+</database>
